@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "C001",
+    "document_id": "DOC01",
+    "chunk_index": 1,
+    "source_file": "attendance.txt",
+    "page_number": 1,
+    "text": "All students must maintain at least 75% attendance.",
+    "metadata": {},
+    "embedding_model": "all-MiniLM-L6-v2"
+  },
+  {
+    "chunk_id": "C002",
+    "document_id": "DOC02",
+    "chunk_index": 1,
+    "source_file": "leave.txt",
+    "page_number": 1,
+    "text": "Full-time employees receive 12 days casual leave annually.",
+    "metadata": {},
+    "embedding_model": "all-MiniLM-L6-v2"
+  }
+]

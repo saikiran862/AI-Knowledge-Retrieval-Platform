@@ -1,0 +1,39 @@
+================================================================================
+B.TECH (ENGINEERING & TECHNOLOGY) ALL-BRANCH CURRICULUM & KNOWLEDGE BASE
+================================================================================
+Disciplines: Computer Science & Engineering (CSE), Electronics (ECE), Electrical (EEE), Mechanical, Civil, Information Technology (IT)
+
+1. COMPUTER SCIENCE & ENGINEERING CORE (CSE / IT):
+- Data Structures & Algorithms:
+  * Asymptotic Notation: Big-O (upper bound), Omega (lower bound), Theta (tight bound). Master Theorem: T(n) = a*T(n/b) + f(n).
+  * Linear Data Structures: Arrays (contigous memory, O(1) access), Singly/Doubly Linked Lists (dynamic memory, O(1) insertion at head), Stacks (LIFO: push, pop, peek), Queues (FIFO: enqueue, dequeue, circular queues, deques).
+  * Trees & Hierarchies: Binary Trees, Binary Search Trees (BST - Left < Root < Right, O(h) operations), Self-Balancing Trees (AVL Trees with LL, RR, LR, RL rotations; Red-Black Trees with color invariants), B-Trees and B+ Trees (multilevel disk-friendly indexing).
+  * Heaps & Priority Queues: Min-Heap and Max-Heap, heapify operation in O(N), priority queues, Heap Sort (O(N log N)).
+  * Graph Algorithms: Breadth-First Search (BFS: queue-based, shortest path in unweighted graphs, O(V+E)), Depth-First Search (DFS: stack/recursion-based, topological sorting, cycle detection). Shortest Path: Dijkstra's Algorithm (greedy, non-negative weights, O((V+E) log V)), Bellman-Ford (handles negative weights, detects negative cycles, O(V*E)), Floyd-Warshall (all-pairs shortest paths, O(V^3)). Minimum Spanning Tree: Prim's algorithm and Kruskal's algorithm (Disjoint Set Union, O(E log V)).
+  * Dynamic Programming: Optimal substructure and overlapping subproblems. Classic DP problems: 0/1 Knapsack, Longest Common Subsequence (LCS), Matrix Chain Multiplication, Coin Change Problem, Longest Increasing Subsequence (LIS).
+
+- Operating Systems:
+  * Process Management: Process Control Block (PCB), Context Switching, Process States (New, Ready, Running, Waiting, Terminated). Inter-Process Communication (IPC): Shared memory, message passing, pipes, sockets.
+  * CPU Scheduling: Metrics (Turnaround Time = Completion - Arrival; Waiting Time = Turnaround - Burst). Algorithms: First-Come First-Served (FCFS, convoy effect), Shortest Job First (SJF / SRTF, optimal average wait time), Round Robin (time quantum q), Priority Scheduling (aging prevents starvation).
+  * Process Synchronization: Critical Section Problem (Mutual Exclusion, Progress, Bounded Waiting). Peterson's Algorithm. Semaphores (Counting and Binary/Mutex: wait()/P() and signal()/V()). Classical synchronization problems: Producer-Consumer (bounded buffer), Readers-Writers problem, Dining Philosophers.
+  * Deadlocks: Four necessary conditions (Mutual Exclusion, Hold and Wait, No Preemption, Circular Wait). Deadlock Handling: Prevention (break one condition), Avoidance (Banker's Algorithm using Available, Max, Allocation, Need matrices), Detection (Wait-For Graph), and Recovery (process termination, resource preemption).
+  * Memory Management: Logical vs Physical address space (MMU). Paging (fixed-size frames and pages, internal fragmentation, Page Table, Translation Lookaside Buffer - TLB). Segmentation (variable-size segments, external fragmentation). Virtual Memory: Demand Paging, Page Fault handling, Page Replacement Algorithms: FIFO (Belady's Anomaly), Optimal (OPT), Least Recently Used (LRU), Clock algorithm.
+
+- Database Management Systems (DBMS):
+  * Relational Model: Relations, Tuples, Attributes, Primary Key, Candidate Key, Foreign Key (Referential Integrity). Relational Algebra: Selection (sigma), Projection (pi), Cartesian Product (X), Set Union (union), Set Difference (-), Natural Join (bowtie).
+  * Normalization: Functional Dependencies (FD). 1NF (atomic values, no repeating groups), 2NF (1NF + no partial dependency on candidate key), 3NF (2NF + no transitive dependency X->Y where X is superkey or Y is prime attribute), BCNF (Boyce-Codd Normal Form: for every X->Y, X must be a superkey).
+  * Transactions & Concurrency: ACID Properties (Atomicity: all or nothing, Consistency: valid state, Isolation: concurrent execution independence, Durability: committed writes survive crashes). Concurrency Anomalies: Lost Update, Dirty Read, Unrepeatable Read, Phantom Read. Schedules: Serializability (Conflict Serializability via Precedence Graph; View Serializability). Two-Phase Locking (2PL: Growing phase and Shrinking phase ensures conflict serializability; Strict 2PL prevents cascading rollbacks).
+
+- Computer Networks:
+  * OSI 7-Layer Model: Physical (bits), Data Link (frames, MAC, CSMA/CD, CSMA/CA), Network (packets, IP addressing, routing), Transport (segments, TCP reliable/flow/congestion control vs UDP connectionless), Session (dialog control), Presentation (encryption, compression, encoding), Application (HTTP, DNS, SMTP, FTP).
+  * Transport Layer: TCP 3-Way Handshake (SYN -> SYN-ACK -> ACK). Flow Control: Sliding Window Protocol (Go-Back-N, Selective Repeat). Congestion Control: AIMD (Additive Increase Multiplicative Decrease), Slow Start, Congestion Avoidance, Fast Retransmit, Fast Recovery.
+  * Network Layer: IPv4 (32-bit, subnetting, CIDR notation /24), IPv6 (128-bit). Routing protocols: Distance Vector (Bellman-Ford, RIP, count-to-infinity problem resolved with split horizon), Link State (Dijkstra, OSPF).
+
+2. ENGINEERING MATHEMATICS (ALL BRANCHES):
+- Linear Algebra: System of linear equations AX = B, Rank of a matrix. Eigenvalues and Eigenvectors: characteristic equation det(A - lambda*I) = 0. Cayley-Hamilton Theorem: Every square matrix satisfies its own characteristic equation, used to find A^(-1) and powers A^n. Diagonalization of matrices.
+- Multivariable Calculus & Vector Calculus: Partial differentiation, Taylor series in two variables, Maxima and minima using Hessian matrix (D = fxx*fyy - (fxy)^2). Gradient (grad phi), Divergence (div F), Curl (curl F). Integral Theorems: Green's Theorem (line integral to double integral in plane), Stokes' Theorem (line integral around curve to surface integral of curl), Gauss Divergence Theorem (surface flux to volume integral of divergence).
+- Differential Equations: First-order exact equations, linear differential equations with constant coefficients: characteristic roots (real, repeated, complex), Particular Integral (PI) methods. Laplace Transforms: L{f(t)} = integral_0^infty e^(-st) f(t) dt. Standard transforms: L{1} = 1/s, L{t^n} = n!/s^(n+1), L{e^(at)} = 1/(s - a), L{sin(at)} = a/(s^2 + a^2), L{cos(at)} = s/(s^2 + a^2). Fourier Series and Fourier Transforms for periodic waveforms.
+
+3. ELECTRONICS & ELECTRICAL ENGINEERING (ECE / EEE):
+- Circuit Theory & Network Theorems: Ohm's law, KCL, KVL. Thevenin's Theorem: Any linear bilateral network can be replaced by an equivalent voltage source Vth in series with Rth. Norton's Theorem: Equivalent current source In in parallel with Rn = Rth. Maximum Power Transfer Theorem: Maximum power transferred to load when RL = Rth (efficiency is 50%, P_max = Vth^2 / (4*RL)).
+- Analog Electronics: PN junction diode forward and reverse bias characteristics. Zener diode as voltage regulator. Bipolar Junction Transistor (BJT) configurations: Common Emitter (CE), Common Base (CB), Common Collector (CC); current gain beta = alpha / (1 - alpha). Operational Amplifiers (Op-Amps): Inverting amplifier gain Av = -Rf/R1, Non-inverting amplifier gain Av = 1 + Rf/R1. Virtual ground concept.

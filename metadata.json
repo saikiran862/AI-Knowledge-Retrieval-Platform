@@ -1,0 +1,7 @@
+{
+  "name": "AI Knowledge Retrieval Platform",
+  "description": "Multi-agent academic knowledge retrieval and question resolution platform answering questions for B.Tech, BBA, Intermediate (11th & 12th), and 10th Class with vector search, architecture blueprint, and AI tutoring.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

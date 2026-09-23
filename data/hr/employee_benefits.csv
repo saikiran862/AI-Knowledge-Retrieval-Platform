@@ -1,0 +1,7 @@
+benefit_id,benefit_name,category,coverage_amount,eligibility_criteria,description
+BEN-001,Group Medical Insurance,Health,INR 700000 / $10000 per family,All Full-Time Employees,Comprehensive cashless hospitalization coverage for employee spouse up to 2 dependent children and parents.
+BEN-002,Term Life Insurance,Life Insurance,3x Annual Base Salary,Permanent Associates,Death benefit provided to designated legal nominees in unfortunate event of associate demise.
+BEN-003,Accidental Disability Cover,Insurance,2x Annual Base Salary,Permanent Associates,Compensation for partial or permanent disability arising from occupational or travel accidents.
+BEN-004,Annual Health Checkup,Wellness,100% Fully Covered,Employees aged 30 and above,Annual preventive executive health screening including blood panels lipid profile ECG and eye check.
+BEN-005,Learning & Upskilling Stipend,Education,INR 50000 per financial year,Completed 6 months tenure,Reimbursement for approved cloud certifications technical degrees and professional conferences.
+BEN-006,Gym and Fitness Subsidy,Wellness,INR 12000 per annum,All Associates,Monthly reimbursement of INR 1000 toward certified gym yoga studio or sports club membership fees.

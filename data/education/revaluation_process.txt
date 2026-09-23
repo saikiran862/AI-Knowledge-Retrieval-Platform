@@ -1,0 +1,18 @@
+================================================================================
+INSTITUTE OF ACADEMIC EXCELLENCE - EXAMINATION CONTROLLER
+POLICY TITLE: ANSWER SCRIPT VERIFICATION AND REVALUATION PROCEDURE
+DOCUMENT CODE: EDU-POL-REVAL-2026 | DOMAIN: EDUCATION (SAMPLE DEMO DATA)
+================================================================================
+
+1. ELIGIBILITY FOR REVALUATION
+Any regular or backlog student who appeared for the end-semester examinations and is dissatisfied with their evaluated marks may apply for Photocopy of Answer Script, Retotaling, or Complete Revaluation within 14 calendar days of the formal publication of exam results.
+
+2. STEP-BY-STEP APPLICATION PROCEDURE
+Step 1: Access the University Student Portal (https://portal.university.edu/exams).
+Step 2: Navigate to the 'Examination Services' module and select 'Apply for Revaluation'.
+Step 3: Select the course code(s) for which revaluation is requested.
+Step 4: Pay the prescribed non-refundable revaluation fee of INR 1,000 per theory paper using the integrated online payment gateway.
+Step 5: Download and save the electronic acknowledgement slip with the unique Revaluation Tracking Number (RTN).
+
+3. EVALUATION AND RESULT DETERMINATION
+The answer script will be masked and independently evaluated by two senior external examiners. If the difference between the original marks and the revalued marks is greater than 15%, the higher score will be awarded. If the difference is less than 3%, the original score remains unchanged. Revised grade cards are issued within 30 working days.

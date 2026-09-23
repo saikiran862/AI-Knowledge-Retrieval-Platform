@@ -1,0 +1,11 @@
+query,domain,expected_chunk,top1_result,top3_result,top5_result,top1_score,top3_best_score,top5_best_score
+What is the minimum attendance requirement?,Education,DOC_EDU_ATTENDANCE_CHUNK_001,True,True,True,0.884,0.884,0.884
+How can a student apply for examination revaluation?,Education,DOC_EDU_REVAL_CHUNK_001,True,True,True,0.852,0.852,0.852
+What are the consequences of copying in an exam?,Education,DOC_EDU_EXAM_CHUNK_002,True,True,True,0.829,0.829,0.829
+Where can students get career guidance on campus?,Education,DOC_EDU_SERVICES_CHUNK_001,True,True,True,0.814,0.814,0.814
+What is the difference between casual leave and earned leave?,Human Resources,DOC_HR_LEAVE_CHUNK_002,True,True,True,0.873,0.873,0.873
+What is the core working hours requirement in the handbook?,Human Resources,DOC_HR_HANDBOOK_CHUNK_001,True,True,True,0.841,0.841,0.841
+What is the broadband reimbursement allowance for remote work?,Human Resources,DOC_HR_WFH_CHUNK_001,True,True,True,0.865,0.865,0.865
+What is the health insurance coverage limit for employees?,Human Resources,DOC_HR_BENEFITS_CHUNK_001,False,True,True,0.732,0.801,0.801
+What is the company's stock price today?,Out of Scope,NONE,False,False,False,0.182,0.182,0.182
+Who won the 2026 cricket world cup?,Out of Scope,NONE,False,False,False,0.145,0.145,0.145

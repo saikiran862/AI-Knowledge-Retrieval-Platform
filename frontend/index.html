@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Knowledge Retrieval Platform</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="header-content">
+        <div class="logo-area">
+          <span class="logo-badge">RAG M1</span>
+          <h1>AI Knowledge Retrieval Platform</h1>
+        </div>
+        <p class="subtitle">Query Resolution System with Multi-Agent Orchestration • Infosys Springboard Batch 3</p>
+      </div>
+      <div class="header-status">
+        <span class="status-indicator online"></span>
+        <span id="kb-status-badge">Knowledge Base: Initializing...</span>
+      </div>
+    </header>
+
+    <!-- Main Grid Layout -->
+    <main class="main-layout">
+      <!-- Left Column: Document Upload & Knowledge Base -->
+      <aside class="sidebar-panel">
+        <section class="panel-card upload-section">
+          <h2>Document Ingestion</h2>
+          <p class="section-desc">Supported: PDF, DOCX, TXT, CSV (Max 25MB)</p>
+          
+          <div class="drop-zone" id="drop-zone">
+            <input type="file" id="file-input" accept=".pdf,.docx,.txt,.csv" multiple class="file-hidden-input">
+            <div class="drop-zone-prompt">
+              <span class="upload-icon">📁</span>
+              <p><strong>+ Upload Documents</strong></p>
+              <span class="hint">Drag & drop or click to select</span>
+            </div>
+          </div>
+          <div id="upload-feedback" class="upload-feedback"></div>
+        </section>
+
+        <!-- Uploaded Documents List -->
+        <section class="panel-card kb-list-section">
+          <div class="section-header">
+            <h2>Knowledge Base Documents</h2>
+            <button id="refresh-docs-btn" class="btn-sm secondary">⟳ Refresh</button>
+          </div>
+          <div id="documents-list" class="documents-list">
+            <div class="empty-state">Loading indexed documents...</div>
+          </div>
+        </section>
+
+        <!-- Vector Store Stats -->
+        <section class="panel-card stats-section">
+          <h3>Vector Store & Index Stats</h3>
+          <div class="stats-grid">
+            <div class="stat-item">
+              <span class="stat-label">Total Chunks</span>
+              <span id="stat-chunks" class="stat-value">-</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Indexed Documents</span>
+              <span id="stat-docs" class="stat-value">-</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Embedding Model</span>
+              <span id="stat-model" class="stat-value small">all-MiniLM-L6-v2</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-label">Vector Index</span>
+              <span class="stat-value small">FAISS IndexFlatIP</span>
+            </div>
+          </div>
+          <button id="btn-run-eval" class="btn-sm primary full-width" style="margin-top: 12px;">
+            ⚡ Run Retrieval Evaluation
+          </button>
+        </section>
+      </aside>
+
+      <!-- Right Column: Interactive Query & Chat Interface -->
+      <section class="content-panel">
+        <!-- Configuration Controls Bar -->
+        <div class="config-bar">
+          <div class="config-item">
+            <label for="top-k-select">Top-K Chunks:</label>
+            <select id="top-k-select">
+              <option value="1">Top-1</option>
+              <option value="3" selected>Top-3</option>
+              <option value="5">Top-5</option>
+            </select>
+          </div>
+          <div class="config-item">
+            <label for="threshold-input">Similarity Cutoff:</label>
+            <input type="number" id="threshold-input" value="0.40" min="0.0" max="1.0" step="0.05">
+          </div>
+          <div class="config-item ml-auto">
+            <button id="btn-clear-chat" class="btn-sm text-btn">Clear Chat</button>
+          </div>
+        </div>
+
+        <!-- Chat Conversation Stream -->
+        <div id="chat-messages" class="chat-messages">
+          <div class="message assistant-message welcome-message">
+            <div class="message-header">
+              <span class="avatar">🤖</span>
+              <strong>Knowledge Assistant</strong>
+            </div>
+            <div class="message-body">
+              <p>Welcome! I am your AI Knowledge Retrieval Assistant. You can ask me factual, procedural, or comparative questions regarding the uploaded policy documents.</p>
+              <div class="sample-queries">
+                <p class="sample-title">Try asking:</p>
+                <button class="sample-btn" data-query="What is the minimum attendance requirement?">"What is the minimum attendance requirement?"</button>
+                <button class="sample-btn" data-query="How can a student apply for examination revaluation?">"How can a student apply for examination revaluation?"</button>
+                <button class="sample-btn" data-query="What is the difference between casual leave and earned leave?">"What is the difference between casual leave and earned leave?"</button>
+                <button class="sample-btn" data-query="What is the broadband reimbursement allowance for remote work?">"What is the broadband reimbursement allowance for remote work?"</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Input Form with Web Speech API Voice Button -->
+        <form id="chat-form" class="chat-form">
+          <div class="input-wrapper">
+            <input 
+              type="text" 
+              id="query-input" 
+              placeholder="Ask your question about policies, procedures, or benefits..." 
+              autocomplete="off"
+              required
+            >
+            <button type="button" id="voice-btn" class="voice-btn" title="Click to speak (Web Speech API)">
+              🎤
+            </button>
+          </div>
+          <button type="submit" id="send-btn" class="send-btn">
+            Send Question
+          </button>
+        </form>
+        <div id="voice-status" class="voice-status"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

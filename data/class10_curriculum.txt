@@ -1,0 +1,31 @@
+================================================================================
+CLASS 10 SECONDARY EDUCATION CURRICULUM - MATHEMATICS & SCIENCE FOUNDATIONS
+================================================================================
+Board: CBSE / ICSE / State Board Secondary Curriculum (Grade 10)
+Subjects: Mathematics, Physics, Chemistry, Biology, Social Science
+
+1. MATHEMATICS FOUNDATIONS & THEOREMS:
+- Real Numbers: Fundamental Theorem of Arithmetic states that every composite number can be expressed (factorized) as a product of primes uniquely, apart from the order in which prime factors occur. Euclid's Division Lemma: a = bq + r, where 0 <= r < b. Proving irrationality of sqrt(2), sqrt(3), sqrt(5).
+- Polynomials: For quadratic polynomial ax^2 + bx + c = 0, sum of roots alpha + beta = -b/a, product of roots alpha * beta = c/a. Relationship between zeros and coefficients.
+- Pair of Linear Equations in Two Variables: Consistent and inconsistent systems. Methods of solution: Substitution, Elimination, and Cross-Multiplication. Condition for unique solution: a1/a2 != b1/b2; Infinitely many solutions: a1/a2 = b1/b2 = c1/c2; No solution (parallel lines): a1/a2 = b1/b2 != c1/c2.
+- Quadratic Equations: Standard form ax^2 + bx + c = 0. Discriminant D = b^2 - 4ac. If D > 0: two distinct real roots. If D = 0: two equal real roots (-b/(2a)). If D < 0: no real roots. Quadratic Formula: x = (-b +- sqrt(b^2 - 4ac)) / (2a).
+- Arithmetic Progressions (AP): First term a, common difference d. n-th term an = a + (n - 1)d. Sum of first n terms: Sn = (n/2)[2a + (n - 1)d] = (n/2)[a + l], where l is the last term.
+- Triangles & Geometry: Basic Proportionality Theorem (Thales Theorem): If a line is drawn parallel to one side of a triangle intersecting the other two sides in distinct points, then the other two sides are divided in the same ratio. Pythagoras Theorem: In a right-angled triangle, hypotenuse^2 = base^2 + perpendicular^2.
+- Trigonometry: sin(theta) = Opp/Hyp, cos(theta) = Adj/Hyp, tan(theta) = Opp/Adj. Reciprocals: cosec, sec, cot. Trigonometric ratios of 0, 30, 45, 60, 90 degrees: sin(30)=1/2, cos(30)=sqrt(3)/2, tan(45)=1. Fundamental Identities: sin^2(theta) + cos^2(theta) = 1; 1 + tan^2(theta) = sec^2(theta); 1 + cot^2(theta) = cosec^2(theta).
+- Statistics & Probability: Mean = sum(fi*xi)/sum(fi). Mode = l + [(f1 - f0)/(2f1 - f0 - f2)] * h. Median = l + [((n/2) - cf)/f] * h. Empirical relationship: 3 Median = Mode + 2 Mean. Probability P(E) = (Number of favorable outcomes) / (Total number of possible outcomes), 0 <= P(E) <= 1.
+
+2. SCIENCE - PHYSICS FOUNDATIONS:
+- Light: Laws of Reflection (Angle i = Angle r). Spherical mirrors: concave and convex. Mirror formula: 1/f = 1/v + 1/u. Magnification m = -v/u = h'/h. Radius of curvature R = 2f.
+- Refraction of Light: Snell's Law: sin(i)/sin(r) = n2/n1 = constant. Absolute refractive index n = c/v. Lens formula: 1/f = 1/v - 1/u. Lens magnification m = v/u = h'/h. Power of lens P = 1/f (in meters), unit is Dioptre (D). Convex lens has positive power, concave lens has negative power.
+- Electricity: Electric current I = Q/t, unit is Ampere (A). Potential difference V = W/Q, unit is Volt (V). Ohm's Law: At constant temperature, potential difference V is directly proportional to current I: V = I * R.
+- Resistance: R = rho * (L / A), where rho is electrical resistivity. Factors affecting resistance: length L (direct), cross-sectional area A (inverse), material nature, and temperature.
+- Resistors in Series: Rs = R1 + R2 + R3. Current remains identical throughout; voltage divides: V = V1 + V2 + V3.
+- Resistors in Parallel: 1/Rp = 1/R1 + 1/R2 + 1/R3. Potential difference remains identical; current divides: I = I1 + I2 + I3.
+- Heating Effect of Electric Current: Joule's Law of Heating: Heat produced H = I^2 * R * t = V * I * t = (V^2 / R) * t. Electric Power P = V * I = I^2 * R = V^2 / R. Commercial unit of electrical energy is kilowatt-hour (kWh), 1 kWh = 3.6 * 10^6 Joules (also called 1 Board of Trade Unit).
+- Magnetic Effects of Current: Right-Hand Thumb Rule for magnetic field around straight conductor. Solenoid magnetic field B = mu0 * n * I. Fleming's Left-Hand Rule for magnetic force on current-carrying conductor (Thumb: Force/Motion, Forefinger: Magnetic field, Middle finger: Current). Electric motor converts electrical energy to mechanical energy. Electromagnetic induction and Fleming's Right-Hand Rule.
+
+3. SCIENCE - CHEMISTRY FOUNDATIONS:
+- Chemical Reactions: Combination, Decomposition, Displacement, Double Displacement, Oxidation, and Reduction (Redox). Balancing chemical equations based on Law of Conservation of Mass.
+- Acids, Bases & Salts: Arrhenius definition. pH scale ranges from 0 to 14 (pH < 7 acidic, pH = 7 neutral, pH > 7 basic). Important compounds: Bleaching Powder (CaOCl2), Baking Soda (NaHCO3), Washing Soda (Na2CO3.10H2O), Plaster of Paris (CaSO4.1/2H2O) produced by heating Gypsum (CaSO4.2H2O) at 373 K.
+- Metals & Non-Metals: Reactivity series (K > Na > Ca > Mg > Al > Zn > Fe > Pb > H > Cu > Hg > Ag > Au). Formation and properties of ionic compounds: high melting and boiling points, electrical conductivity in molten or aqueous state.
+- Carbon and its Compounds: Covalent bonding, tetravalency and catenation. Homologous series differing by -CH2- unit and 14 u molecular mass. Functional groups: Alcohol (-OH), Aldehyde (-CHO), Ketone (>C=O), Carboxylic acid (-COOH). Saponification: Alkaline hydrolysis of esters producing soap and glycerol. Micelle formation in cleansing action.

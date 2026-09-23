@@ -1,0 +1,26 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+venv/
+env/
+.venv/
+
+# Vector Store & Local DB
+vector_store/*.faiss
+*.db
+*.sqlite
+*.sqlite3
+uploads/
+

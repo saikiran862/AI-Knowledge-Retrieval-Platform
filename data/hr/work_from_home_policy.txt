@@ -1,0 +1,16 @@
+================================================================================
+GLOBAL ENTERPRISE TECHNOLOGIES - HUMAN RESOURCES POLICY
+POLICY TITLE: HYBRID WORKPLACE AND WORK-FROM-HOME (WFH) POLICY
+DOCUMENT CODE: HR-POL-WFH-2026 | DOMAIN: HUMAN RESOURCES (SAMPLE DEMO DATA)
+================================================================================
+
+1. HYBRID WORK MODEL
+Associates whose roles are categorized as location-flexible are eligible to operate on a 3:2 hybrid schedule (3 days in designated corporate office, 2 days remote work from home). Full remote work requests require managerial and Vice President approval based on operational feasibility.
+
+2. BROADBAND AND ERGONOMIC REIMBURSEMENT
+To ensure a secure and productive home work environment, the company provides:
+- Monthly Internet / Broadband Reimbursement: Up to INR 1,500 ($25 USD) per month against valid ISP invoices submitted through the expense portal.
+- One-time Ergonomic Home Office Setup Allowance: Up to INR 15,000 ($200 USD) for acquiring an ergonomic office chair, desk, external monitor, and keyboard. Invoices must be submitted within 60 days of joining or transitioning to hybrid work.
+
+3. DATA SECURITY AND VPN REQUIREMENTS
+Employees accessing corporate repositories, client databases, or internal APIs while working remotely must connect exclusively via the corporate GlobalProtect VPN with multi-factor authentication (MFA). Using public unencrypted Wi-Fi networks without VPN is strictly prohibited.

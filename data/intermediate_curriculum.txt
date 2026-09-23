@@ -1,0 +1,30 @@
+================================================================================
+INTERMEDIATE & SENIOR SECONDARY CURRICULUM (CLASS 11 & 12 - MPC / BiPC / MEC)
+================================================================================
+Boards: State Intermediate Board (AP / Telangana / CBSE / ISC)
+Streams: MPC (Maths, Physics, Chemistry), BiPC (Biology), MEC (Maths, Economics, Commerce)
+
+1. INTERMEDIATE MATHEMATICS (1A, 1B, 2A, 2B):
+- Functions & Relations: Injective (one-to-one), Surjective (onto), and Bijective functions. Inverse functions. Composition (f o g)(x) = f(g(x)).
+- Matrices & Determinants: Types of matrices. Matrix multiplication non-commutative in general. Determinant of 3x3 matrix. Cramer's Rule for solving linear equations AX = B: x = det(A1)/det(A), y = det(A2)/det(A), z = det(A3)/det(A). Matrix Inversion Method: X = A^(-1)B, where A^(-1) = adj(A) / det(A).
+- Complex Numbers: Polar and Euler form: z = r(cos theta + i sin theta) = r * e^(i*theta). De Moivre's Theorem: (cos theta + i sin theta)^n = cos(n*theta) + i sin(n*theta). Cube roots of unity: 1, omega, omega^2 with properties 1 + omega + omega^2 = 0 and omega^3 = 1.
+- Calculus - Differentiation: Limits: lim (x->0) sin(x)/x = 1; lim (x->0) (e^x - 1)/x = 1. Product Rule: d/dx [u*v] = u'v + uv'. Quotient Rule: d/dx [u/v] = (u'v - uv') / v^2. Chain Rule: d/dx [f(g(x))] = f'(g(x)) * g'(x). Derivatives of trigonometric, exponential, and logarithmic functions.
+- Calculus - Applications of Derivatives: Tangents and Normals: slope m = dy/dx at (x1, y1). Equation of tangent: y - y1 = m(x - x1). Maxima and Minima: First derivative test and second derivative test (f'(c) = 0, f''(c) < 0 implies local maximum; f''(c) > 0 implies local minimum).
+- Calculus - Integration: Indefinite integrals, integration by substitution, integration by parts: integral(u * v dx) = u * integral(v dx) - integral(u' * (integral(v dx)) dx). Definite integrals: Fundamental Theorem of Calculus. Properties of definite integrals: integral_0^a f(x)dx = integral_0^a f(a - x)dx.
+- Differential Equations: Order and degree of differential equation. Variables separable form: f(x)dx + g(y)dy = 0. Homogeneous equations dy/dx = F(y/x). Linear differential equations: dy/dx + P(x)y = Q(x), Integrating factor IF = e^(integral P dx), Solution: y * IF = integral(Q * IF dx) + C.
+- Coordinate Geometry & Conics: Standard equations: Parabola y^2 = 4ax (focus (a,0), directrix x = -a); Ellipse x^2/a^2 + y^2/b^2 = 1 (eccentricity e < 1, b^2 = a^2(1 - e^2)); Hyperbola x^2/a^2 - y^2/b^2 = 1 (eccentricity e > 1, b^2 = a^2(e^2 - 1)).
+
+2. INTERMEDIATE PHYSICS:
+- Kinematics & Mechanics: Equations of motion: v = u + at, s = ut + (1/2)at^2, v^2 - u^2 = 2as. Projectile motion: Time of flight T = (2u sin theta)/g, Maximum height H = (u^2 sin^2 theta)/(2g), Horizontal range R = (u^2 sin 2theta)/g. Range is maximum at theta = 45 degrees.
+- Newton's Laws & Work-Energy: F = dp/dt = m*a. Impulse J = F * delta_t = delta_p. Conservation of linear momentum. Work-Energy Theorem: Work done by all forces equals change in kinetic energy W = Delta K = (1/2)mv^2 - (1/2)mu^2.
+- Thermodynamics: First Law: Delta Q = Delta U + Delta W (where Delta W = P * Delta V). Molar specific heats: Cp - Cv = R (Mayer's relation). Adiabatic process: P * V^gamma = constant, where gamma = Cp/Cv. Second Law: Clausius and Kelvin-Planck statements. Carnot engine efficiency eta = 1 - (T2/T1) = (T1 - T2)/T1.
+- Electrostatics: Coulomb's Law: F = (1 / (4 * pi * epsilon0)) * (q1 * q2 / r^2). Gauss's Law: Electric flux through closed surface phi = q_enclosed / epsilon0. Capacitance C = Q/V. Parallel plate capacitor C = (epsilon0 * A) / d. Energy stored U = (1/2)CV^2 = Q^2 / (2C).
+- Current Electricity & Circuits: Kirchhoff's Current Law (KCL): sum(I_in) = sum(I_out) at any junction (Conservation of Charge). Kirchhoff's Voltage Law (KVL): sum(V) = 0 around any closed loop (Conservation of Energy). Wheatstone Bridge balance condition: P/Q = R/S. Potentiometer principle: potential drop is proportional to balancing length V proportional to L.
+- Magnetism & EMI: Biot-Savart Law dB = (mu0 / 4pi) * (I dl sin theta / r^2). Ampere's Circuital Law. Faraday's Laws of Electromagnetic Induction: induced EMF e = -d(phi_B)/dt. Lenz's Law gives direction of induced current conserving energy.
+- Modern Physics: Photoelectric effect: Einstein's equation h*nu = Phi + (1/2)m*v_max^2, where Phi is work function. De Broglie wavelength lambda = h/p = h/(mv). Bohr model of hydrogen atom: orbital radius r_n = n^2 * a0, energy levels E_n = -13.6 / n^2 eV. Nuclear binding energy Delta E = Delta m * c^2.
+
+3. INTERMEDIATE CHEMISTRY:
+- Physical Chemistry: Quantum numbers (n: principal, l: azimuthal, m: magnetic, s: spin). Aufbau principle, Pauli's exclusion principle, Hund's rule of maximum multiplicity. Chemical Bonding: sp, sp2, sp3 hybridization, VSEPR theory shapes (linear, trigonal planar, tetrahedral).
+- Chemical Kinetics: Rate of reaction r = k * [A]^m [B]^n. First order reaction: integrated rate law k = (2.303 / t) * log10([A0] / [At]), half-life t_1/2 = 0.693 / k (independent of initial concentration). Arrhenius equation k = A * e^(-Ea / (RT)).
+- Organic Chemistry: Markovnikov's rule: In addition of HX to asymmetric alkene, negative part adds to carbon with fewer hydrogen atoms. Anti-Markovnikov (peroxide effect). Mechanisms of SN1 (two steps via carbocation intermediate, racemization) and SN2 (single bimolecular step via transition state, Walden inversion).
+- Name Reactions: Aldol Condensation, Cannizzaro reaction (compounds with no alpha-hydrogen undergo self oxidation-reduction), Reimer-Tiemann reaction (phenol to salicylaldehyde using CHCl3 + KOH), Kolbe's reaction (phenol to salicylic acid), Gabriel Phthalimide synthesis.

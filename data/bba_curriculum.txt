@@ -1,0 +1,42 @@
+================================================================================
+BBA (BACHELOR OF BUSINESS ADMINISTRATION) ALL-SEMESTER CURRICULUM & KNOWLEDGE
+================================================================================
+Core Disciplines: Principles of Management, Marketing, Financial Accounting, Business Law, HRM, Managerial Economics
+
+1. PRINCIPLES & PRACTICES OF MANAGEMENT:
+- Nature and Scope of Management: Management defined by Mary Parker Follett as "the art of getting things done through people." Management functions (POSDCORB): Planning, Organizing, Staffing, Directing, Coordinating, Reporting, and Budgeting.
+- Evolution of Management Thought:
+  * Classical Theory: Scientific Management by Frederick Winslow Taylor (Time and motion study, differential piece rate system, mental revolution).
+  * Administrative Theory by Henri Fayol: 14 Principles of Management: (1) Division of Work, (2) Authority and Responsibility, (3) Discipline, (4) Unity of Command, (5) Unity of Direction, (6) Subordination of Individual Interest, (7) Remuneration, (8) Centralization, (9) Scalar Chain (Gang Plank), (10) Order, (11) Equity, (12) Stability of Tenure, (13) Initiative, (14) Esprit de Corps.
+  * Bureaucratic Model: Max Weber (Hierarchy of authority, formal rules and regulations, impersonality).
+  * Neo-Classical & Behavioral: Hawthorne Experiments by Elton Mayo (Human relations school, social factors and informal groups).
+- Motivation & Leadership Theories:
+  * Maslow's Hierarchy of Needs: Physiological, Safety, Social/Belonging, Esteem, Self-Actualization.
+  * Herzberg's Two-Factor Theory: Hygiene factors (extrinsic: salary, working conditions, company policy) prevent dissatisfaction; Motivating factors (intrinsic: achievement, recognition, responsibility, growth) generate job satisfaction.
+  * McGregor's Theory X (pessimistic, employees avoid work) and Theory Y (optimistic, employees seek responsibility).
+  * Leadership Styles: Autocratic, Democratic / Participative, Laissez-Faire / Free-Rein, Transformational vs Transactional leadership.
+
+2. MARKETING MANAGEMENT:
+- Core Marketing Concepts: Needs, Wants, Demands, Products, Value, Satisfaction, Exchange. The Marketing Mix (4 Ps by E. Jerome McCarthy): Product (quality, design, features, packaging, branding), Price (cost-plus, penetration, skimming, dynamic pricing), Place (distribution channels, logistics, warehousing), Promotion (advertising, sales promotion, personal selling, public relations, direct marketing).
+- Extended 7 Ps for Services (Booms and Bitner): Product, Price, Place, Promotion, People (service personnel, training, customer service), Process (service delivery flow, standard operating procedures), Physical Evidence (ambiance, layout, decor, receipts).
+- STP Strategy:
+  * Segmentation: Geographic, Demographic (age, gender, income), Psychographic (lifestyle, personality, values), Behavioral (usage rate, loyalty, benefits sought).
+  * Targeting: Undifferentiated (mass marketing), Differentiated (multi-segment), Concentrated (niche marketing), Micromarketing.
+  * Positioning: Defining brand identity and distinctive value proposition in customer's mind (Perceptual mapping, USP - Unique Selling Proposition).
+- Product Life Cycle (PLC): Introduction (high marketing cost, low sales, negative profits), Growth (rapid sales increase, economies of scale, entering competitors), Maturity (peak sales, price competition, brand differentiation), Decline (falling sales, product pruning or harvesting).
+
+3. FINANCIAL MANAGEMENT & ACCOUNTING:
+- Accounting Fundamentals: Double-entry bookkeeping. Accounting Equation: Assets = Liabilities + Equity (Capital). Golden Rules of Accounting:
+  * Personal Accounts: Debit the receiver, Credit the giver.
+  * Real Accounts: Debit what comes in, Credit what goes out.
+  * Nominal Accounts: Debit all expenses and losses, Credit all incomes and gains.
+- Financial Statements: Balance Sheet (statement of financial position at a specific date), Profit and Loss Account / Income Statement (operational performance over an accounting period), Cash Flow Statement (Cash flow from Operating, Investing, and Financing activities - AS-3).
+- Financial Ratio Analysis:
+  * Liquidity Ratios: Current Ratio = Current Assets / Current Liabilities (Ideal: 2:1); Quick/Acid-Test Ratio = (Current Assets - Inventory - Prepaid Expenses) / Current Liabilities (Ideal: 1:1).
+  * Solvency / Leverage Ratios: Debt-Equity Ratio = Total Debt / Shareholders' Equity; Interest Coverage Ratio = EBIT / Interest.
+  * Profitability Ratios: Gross Profit Margin = (Gross Profit / Net Revenue) * 100; Net Profit Margin = (Net Profit / Net Revenue) * 100; Return on Equity (ROE) = Net Income / Shareholders' Equity; Return on Capital Employed (ROCE) = EBIT / Capital Employed.
+- Capital Budgeting Techniques: Net Present Value (NPV = Sum of discounted cash inflows - Initial Investment; Accept if NPV > 0); Internal Rate of Return (IRR: discount rate where NPV = 0); Payback Period (time required to recover initial cash outlay); Profitability Index (PI = Present Value of Inflows / Initial Outlay).
+
+4. BUSINESS LAW & HUMAN RESOURCE MANAGEMENT (HRM):
+- Indian Contract Act: Contract = Agreement + Enforceability by Law. Essentials of a valid contract: Offer and Acceptance, Intention to create legal relations, Lawful Consideration, Capacity of parties (age of majority, sound mind), Free Consent (no coercion, undue influence, fraud, misrepresentation, mistake), Lawful Object.
+- Human Resource Management: HR Planning, Job Analysis (Job Description - tasks and duties; Job Specification - qualifications, skills, experience), Recruitment (Internal vs External sources), Selection process (screening, tests, interview, reference checks, medical), Performance Appraisal methods (Management by Objectives - MBO, 360-Degree Feedback, Balanced Scorecard).
